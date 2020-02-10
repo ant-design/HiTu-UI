@@ -8,8 +8,14 @@
     "precommit": "lint-staged"
   },
   "dependencies": {
-    "dva": "^2.6.0-beta.6",
+    "@ant-design/hitu": "0.0.0-alpha.15",
+    "@ant-design/hitu-assets": "0.0.0-alpha.1",
+    "@types/d3": "^5.7.2",
+    "@types/lodash": "^4.14.149",
     "antd": "^3.19.5",
+    "d3": "^5.15.0",
+    "dva": "^2.6.0-beta.6",
+    "lodash": "^4.17.15",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
@@ -33,8 +39,14 @@
     "umi-types": "^0.3.0"
   },
   "lint-staged": {
-    "*.{ts,tsx}": ["eslint --fix", "git add"],
-    "*.{js,jsx}": ["eslint --fix", "git add"]
+    "*.{ts,tsx}": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.{js,jsx}": [
+      "eslint --fix",
+      "git add"
+    ]
   },
   "engines": {
     "node": ">=8.0.0"

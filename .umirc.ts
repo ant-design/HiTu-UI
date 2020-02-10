@@ -1,7 +1,7 @@
 import { IConfig } from 'umi-types';
 
 // ref: https://umijs.org/config/
-const config: IConfig =  {
+const config: IConfig = {
   treeShaking: true,
   routes: [
     {
@@ -20,7 +20,7 @@ const config: IConfig =  {
       dynamicImport: { webpackChunkName: true },
       title: 'hitu-ui',
       dll: false,
-      
+
       routes: {
         exclude: [
           /models\//,
@@ -31,7 +31,7 @@ const config: IConfig =  {
         ],
       },
     }],
-  ],
+  ]
 }
 
 export default config;
